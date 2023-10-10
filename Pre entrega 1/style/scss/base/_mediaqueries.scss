@@ -1,0 +1,35 @@
+
+ 
+@media (max-width:700px){
+    .pie-pagina .grupo-1{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        }
+}
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:400px){
+    .contenedor{
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width:320px){
+    .producto{
+        width: 50px;
+    }
+}
+

@@ -1,0 +1,245 @@
+.pie {
+  background-color: rgb(255, 184, 76);
+  height: 570px;
+  background-image: url(../images/maradona.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  font-size: 40px;
+  font-size: 30px;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: #0a141d;
+}
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pie-pagina .grupo-1 .red-social img {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+}
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 img {
+  width: 70px;
+}
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+
+.titulofooter {
+  color: black;
+  font-size: 40px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 70px;
+  background-color: aquamarine;
+  padding: 10px;
+  align-items: center;
+  height: auto;
+}
+
+h1 {
+  animation: tracking-in-expand 5s linear both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.2em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#logo {
+  width: 50px;
+  margin-left: 10px;
+}
+
+#logo {
+  animation: rotate-horizontal-center 2s;
+}
+
+@keyframes rotate-horizontal-center {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
+.texto {
+  padding: 5%;
+  width: 90%;
+}
+
+.producto {
+  font-size: 20px;
+  text-align: center;
+  margin: 50px;
+}
+.producto p {
+  text-align: center;
+}
+
+.precio {
+  text-align: center;
+  font-size: 40px;
+}
+
+.lugar {
+  text-align: center;
+  font-size: 50px;
+}
+
+.size {
+  text-align: center;
+}
+
+.talles {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+nav a a:hover {
+  color: white;
+}
+
+#camiseta {
+  width: 200px;
+}
+
+.formulario {
+  font-size: 40px;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.volver {
+  text-align: left;
+}
+
+.datos {
+  text-align: right;
+}
+
+.donde {
+  display: flex;
+}
+
+#nose {
+  font-size: 40px;
+}
+
+.form {
+  size: 50px;
+}
+
+table {
+  font-size: 50px;
+}
+
+section p {
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
+}
+@media (max-width: 400px) {
+  .contenedor {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .producto {
+    width: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

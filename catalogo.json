@@ -1,0 +1,19 @@
+[
+    {
+      "nombre": "Camiseta Francia 2018",
+      "precio": 13999,
+      "imagen": "francia.jpg"
+    },
+    {
+      "nombre": "Camiseta Selección Argentina 2014",
+      "precio": 13999,
+      "imagen": "seleccion.jpg"
+    },
+    {
+      "nombre": "Camiseta Boca Juniors Temporada 2011",
+      "precio": 13999,
+      "imagen": "camiseta de boca.jpg"
+    }
+    
+  ]
+  

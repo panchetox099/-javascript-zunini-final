@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: aquamarine;
+    padding: 10px;
+    align-items: center;
+    height: auto;
+}
+
+h1 {
+    animation:tracking-in-expand 5s linear both
+}
+
+@keyframes tracking-in-expand{0%{letter-spacing:-.2em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+#logo {
+    width: 50px;
+    margin-left: 10px
+}
+
+#logo{
+    animation:rotate-horizontal-center 2s
+}
+@keyframes rotate-horizontal-center{0%{transform:rotateX(0)}100%{transform:rotateX(-360deg)}}
+
+.texto {
+    padding: 5%;
+    width: 90%
+}

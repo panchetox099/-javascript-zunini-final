@@ -1,0 +1,80 @@
+.pie {
+    background-color: rgb(255, 184, 76);
+    height: 570px;
+    background-image: url(../images/maradona.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    font-size: 40px;
+    font-size: 30px;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+
+    .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.pie-pagina .grupo-1 {
+
+    .red-social img {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #0d2033;
+        text-align: center;
+    }
+
+    .box figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    img {
+        width: 70px;
+    }
+
+    .box p {
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    color: #fff;
+
+    small {
+        font-size: 15px;
+    }
+}
+.titulofooter {
+    color: black;
+    font-size: 40px;
+}
+
+footer ul {
+    list-style-type: none;
+}

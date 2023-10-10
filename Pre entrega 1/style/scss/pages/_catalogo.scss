@@ -1,0 +1,21 @@
+
+
+#camiseta {
+    width: 100px +100px;
+}
+
+#agregar{
+    text-align: center;
+}
+
+/* Estilos para el modo claro (predeterminado) */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Estilos para el modo oscuro */
+body.modo-oscuro {
+    background-color: #222;
+    color: #fff;
+}

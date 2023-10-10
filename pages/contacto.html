@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/futbol.jpg">
+    <meta name="description" content="Hola somos Crazy for Jerseys, tu mejor proveedor de camisetas.
+    Pasate por nuestra web y contactanos. Gracias!">
+    <meta name="keywords" content="CAMISETAS, IMPORTADAS, FUTBOL, BOCA, RIVER, BARCELONA, REAL MADRID">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../style/css/style.css">
+    <title>CFJ / Contacto</title>
+</head>
+
+<body>
+
+
+    <header>
+        <img id="logo" src="../images/futbol.jpg" width="50" alt="">
+
+        <h1>Crazy for Jerseys</h1>
+        <nav class="links">
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="../index.html">Index</a>
+            <a href="./catalogo.html">Catalogo</a>
+            <a href="./talles.html">Talles</a>
+        </nav>
+    </header>
+
+    <main>
+        <h3 class="lugar">Contacto</h3>
+        <p id="nose">Dejanos tus datos asi te contactamos!</p>
+
+        <form class="formulario" action="">
+            <div>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <div>
+                <label for="apellido">Apellido</label><br>
+                <input type="text" id="apellido" required>
+            </div>
+
+
+            <div>
+                <label for="mail">Correo electronico</label><br>
+                <input type="email" id="mail">
+                <br><br><br>
+                <input type="email" id="nuevo-email" placeholder="Nuevo correo electrónico" required>
+                <button onclick="verificarEmail()">Verificar Email</button>
+                <p id="resultado-email"></p>
+
+            </div>
+
+            <div>
+                <label for="numero de telefono">Telefono</label><br>
+                <input type="tel" id="numero" placeholder="Número de teléfono" required>
+                <button onclick="verificarNumero()">Verificar Número</button>
+                <p id="resultado-numero"></p>
+
+            </div>
+
+
+
+
+
+            <div class="form">
+
+                <select id="motivos" multiple required>
+                    <option value="cambios">Cambios de prendas</option>
+                    <option value="usuario">Olvide mi usuario y contraseña</option>
+                    <option value="comprar">Como comprar</option>
+                    <option value="pedido">Seguimiento de pedido</option>
+                    <option value="otros">Otros</option>
+                </select>
+                <p id="motivos-seleccionados"></p>
+
+            </div>
+
+
+            <div>
+                <input type="text" id="nuevo-motivo" placeholder="Nuevo motivo de consulta">
+                <button onclick="agregarMotivo()">Agregar Motivo al Inicio</button>
+                <p id="motivos-actualizados"></p>
+            </div>
+
+
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+
+
+            <form>
+
+
+    </main>
+
+  
+
+    <input type="email" id="nuevo-email" placeholder="Nuevo correo electrónico">
+    <button onclick="verificarEmail()">Verificar Email</button>
+    <p id="resultado-email"></p>
+
+
+
+
+    <div id="mensaje">Gracias por la informacion brindada, 
+        estamos en contacto!</div>
+
+
+
+
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../images/futbol.jpg" alt="Logo de CFJ" width="50">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos una empresa dedicada a la importacion de todo lo relacionado al mundo del deporte.</p>
+
+
+            </div>
+            <div class="box">
+                <h2>Siguenos</h2>
+                <div class="red-social">
+                    <img src="../images/facebook.jpg" width="50" alt="logo de facebook">
+                    <img src="../images/insta.jpg" width="50" alt="logo de instagram">
+                    <img src="../images/twitter.png" width="50" alt="logo de twitter">
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Crazy for Jerseys</b> - Todos Los Derechos Reservados</small>
+        </div>
+    </footer>
+
+    <script src="../contacto.js"></script>
+</body>
+
+</html>
